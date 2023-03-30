@@ -1,0 +1,350 @@
+.container {
+    background-color: black;
+    width: 500px;
+    height: 500px;
+    display: flex;
+justify-content: center;
+align-items: center;
+}
+
+#centerdiv {
+display: flex;
+align-items: center;
+width: 100px;
+height: 100px;
+background-color: aqua;
+}
+
+/* task-2 css */
+.containerlogo {
+    background-color: orange;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.navbarleft {
+    display: flex;
+    align-items: center;
+
+}
+
+.navbarott {
+    background-color: gray;
+    padding: 5px;
+    margin-right: 5px;
+}
+
+#logo {
+     background-color: blue;
+     padding: 20px;
+}
+
+.navbarright {
+    display: flex;
+    align-items: center;
+}
+
+.navbarff {
+    background-color: gray;
+    padding: 5px;
+    margin-left: 5px;
+}
+
+/* task-3 css */
+
+
+
+#leftside {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.logo {
+    color: #643195;
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 20px;
+    margin-right: 20px;
+
+}
+
+.menu {
+    color: #643195;
+    padding-right: 3px;
+    font-size: small;
+    font-weight: 400;
+}
+
+#rightside {
+    display: flex;
+    align-items: center;
+}
+
+.notification {
+    background-color: #643195;
+    color: white;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    margin-right: 5px;
+}
+
+.avatar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    padding: 5px;
+    background-color:#643195;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+/* TASK_4 css */
+#bigbox {
+    display: flex;
+    flex-wrap: wrap;
+    width: 600px;
+    height: 300px;
+}
+
+.box1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 600px;
+    height: 100px;
+    background-color: pink;
+}
+
+.box2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+width: 100px;
+height: 100px;
+background-color: blue;
+}
+.box3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    }
+    
+    .box4 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100px;
+        height: 100px;
+        background-color: green;
+        }
+
+        .box5 {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 100px;
+            height: 100px;
+            background-color:darkmagenta;
+            }
+            
+            .box6 {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                width: 100px;
+                height: 100px;
+                background-color:aqua;
+                }
+
+                .box7 {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    width: 100px;
+                    height: 100px;
+                    background-color: brown;
+                    }
+                    
+                    .box8 {
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        width: 600px;
+                        height: 100px;
+                        background-color: black;
+                        color: white;
+                        }
+                        
+/* TASK_5 CSS */
+
+.backgroundgoogle{
+background-color: #202124;
+
+}
+.navbargoogle {
+    display: flex;
+    justify-content: end;
+}
+
+#gmailgoogle {
+    color: white;
+    padding: 5px;
+    padding-right: 10px;
+}
+
+#imagesgoogle {
+    color: white;
+    padding: 5px;
+    padding-right: 10px;
+}
+
+#menugoogle {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#usergoogle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    background-color: red;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+#googlemain {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;    
+}
+#googlelogo {
+
+    font-size: 200px;
+    font-weight: bold;
+    color: white;
+    padding-bottom: 100px;
+}
+
+
+
+#searchgoogle {
+    width: 650px;
+    padding: 5px;
+    border: 1px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+.twobtn {
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+#btn1 {
+    padding: 10px;
+    background-color: gray;
+    margin-right: 20px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+
+#btn2 {
+    padding: 10px;
+    background-color: gray;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+#copyright {
+color: white;
+}
+
+/* task-6 */
+
+
+#navbartask6 {
+    color: white;
+    background-color: #643195;
+    font-weight: bold;
+    padding: 10px;
+    
+    
+}
+
+.linksandboxs {
+    display: flex;
+}
+
+.linkscontainer {
+    background-color: blue;
+    width: 300px;
+    display: flex;
+flex-direction: column;
+align-items: center;
+padding-top: 30px;
+
+}
+
+.linkside {
+    padding: 30px;
+}
+
+.boxcontainer {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    gap: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: red;
+}
+
+.boxs {
+    background-color: gray;
+    border: 1px solid black;
+    width: 300px;
+    height: 300px;
+    margin: 20px;
+    box-shadow: 0 0 5px 1px rgb(66, 62, 62);
+}
+
+
+
+
+
+                
