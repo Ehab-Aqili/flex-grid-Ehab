@@ -1,0 +1,380 @@
+/* GRID TASK-1  css*/
+
+#gridcontainer {
+    /* display: grid;
+    grid-template-columns: 100px 100px 100px 100px 100px 100px;
+    grid-template-rows: 100px 100px 100px 100px 100px 100px; */
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 5px; 
+    
+}
+
+#gridheader {
+    background-color: yellow;
+    width: auto ; 
+    height: 100px;  
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    grid-area: 1/1/2/7;
+    border-radius: 10px; ;
+    -webkit-border-radius: 10px ;
+    -moz-border-radius: 10px ;
+    -ms-border-radius: 10px ;
+    -o-border-radius: 10px ;
+}
+
+#gridaside {
+    background-color: orangered;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    grid-area: 2/1/6/3;
+    border-radius: 10px; 
+}
+
+#gridnav {
+    background-color: aqua;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    grid-area: 2/3/3/7;
+    border-radius: 10px; 
+}
+
+#gridarticle {
+    background-color: #bccbde;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    grid-area: 3/3/6/7;
+    border-radius: 10px; 
+
+}
+
+#gridfooter {
+    background-color: black;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    grid-area: 6/1/7/7;
+    border-radius: 10px; 
+    color: white;
+}
+/* TASK GRId-2 CSS */
+
+.task3container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 5px;
+}
+
+.grid1 {
+    background-color: green;
+    grid-area: 1/1/2/2;
+    width: auto;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+}
+
+.grid2 {
+    background-color: yellow;
+    display: flex;
+    justify-content: center;
+
+}
+
+.grid3 {
+    background-color: lightgreen;
+    /* display: flex;
+    justify-content: center; */
+}
+
+.grid4 {
+    background-color: rgb(207, 207, 53);
+    /* display: flex;
+    justify-content: center; */
+}
+
+.grid5 {
+    background-color: purple;
+    display: flex;
+    justify-content: center;
+}
+
+.grid6 {
+    background-color: pink;
+    display: flex;
+    justify-content: center;}
+
+.grid7 {
+    background-color: gray;
+    display: flex;
+    justify-content: center;}
+
+.grid8 {
+    background-color: brown;
+    display: flex;
+    justify-content: center;}
+
+.grid9 {
+    background-color: orangered;
+    /* display: flex;
+   justify-content: center; */
+}
+
+/* sml container */
+
+.task3container-1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+
+}
+
+.grid1-1 {
+    background-color: grey;
+    grid-area: 1/1/2/2;
+ 
+}
+
+.grid1-2 {
+    background-color: grey;
+ 
+
+}
+
+.grid1-3 {
+    background-color: grey;
+ 
+}
+
+.grid1-4 {
+    background-color: grey;
+   
+}
+
+.grid1-5 {
+    background-color: grey;
+   
+}
+
+.grid1-6 {
+    background-color: grey;
+  
+}
+
+.grid1-7 {
+    background-color: grey;
+  
+}
+
+.grid1-8 {
+    background-color: grey;
+   
+}
+
+.grid1-9 {
+    background-color: grey;
+  
+}
+
+/* BOX FOUR GRID CSS */
+.grid4-1 {
+    background-color: grey;
+    grid-area: 1/1/2/2;
+ 
+}
+
+.grid4-5 {
+    background-color: grey;
+   
+}
+
+.grid4-9 {
+    background-color: grey;
+  
+}
+
+/* GRID BOX 9 CSS */
+
+.contaenir9 {
+    display: grid;
+    grid-template-columns: 120px 120px 120px 120px;
+    grid-template-rows: 75px;
+}
+
+.gird9-1 {
+    /* width: 75px;
+    height: 75px; */
+    background-color: aquamarine;
+    grid-area: 1/1/2/2;
+
+}
+.gird9-2 {
+    background-color: blue;
+
+}
+
+.gird9-3 {
+    background-color: white;
+    
+}
+
+.gird9-4 {
+    background-color: green;
+    
+}
+
+
+/* GRID TASK-4  */
+
+.task4container {
+    display: grid;
+    grid-template-rows: repeat(7, 100px);
+    grid-template-columns: repeat(6, minmax(100px, 1fr));
+    gap: 5px 5px;
+    grid-template-areas:     'header header header header header header'    'header header header header header header'    'aside nav nav nav nav nav'    'aside article article article article article'    'aside article article article article article'    'aside article article article article article'    'footer footer footer footer footer footer'    ;
+}
+.task4header {
+    grid-area: header;
+    background-color: blue;
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 3fr 1fr 1fr 1fr 1fr;
+    align-items: center;
+    padding-left: 80px;
+}
+.task4logo {
+    font-size: 80px;
+}
+
+.task4nav {
+    grid-area:  nav;
+    background-color: green;
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    justify-items: center;
+   
+    /* grid-auto-flow: column; 
+    align-items: center;
+    justify-items: center;
+    another way  */
+    
+}
+
+.task4aside { 
+grid-area:  aside;
+background-color: red;
+display: grid;
+justify-items: center;
+align-items: center;
+}
+
+.boxtask4 {
+    width: 90%;
+    height: 90%;
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+
+}
+.task4article {
+    padding-top: 10px;
+    grid-area:  article;
+    background-color: blueviolet;
+    display: grid;
+    grid-template-rows: repeat(2, 140px);
+    grid-template-columns: repeat(6, minmax(70px, 1fr)); 
+    gap: 5px 5px;
+}
+.articletas4 {
+    border-radius: 20px;
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+}
+
+
+.task4footer {
+    grid-area:  footer;
+    background-color: orange;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+/* GRID TASK - 6 */
+.formcontainer {
+    width: 500px;
+    display: grid;
+    grid-template-rows: repeat(6, 100px);
+    grid-template-columns: repeat(2, minmax(100px, 1fr));
+    grid-template-areas: 
+    'firstName lastName'
+    'email jopRole'
+    'address address'
+    'city pinCode'
+    'date upload'
+    'apply apply'
+    ;
+}
+
+.firstname {
+    grid-area: firstName;
+
+    
+}
+
+.lastname {
+    grid-area: lastName;
+ 
+}
+
+.email {
+    grid-area: email; 
+}
+.jobrole {
+    grid-area: jopRole;
+}
+
+.address {
+    grid-area: address;
+}
+.city {
+    grid-area: city;
+}
+.pincode {
+    grid-area: pinCode;
+}
+.date {
+    grid-area: date;
+}
+.yourvc {
+    grid-area: upload;
+}
+
+.apply {
+    background-color: red;
+    color: white;
+    width: 120px;
+    height: 40px;
+    grid-area: apply;
+    display: grid;
+    justify-self: end;
+    align-items: center;
+    margin-right: 40px;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    font-size: 20px;
+}
